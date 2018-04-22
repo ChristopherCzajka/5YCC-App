@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.controller.RepeatController">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0">
+      <children>
+        <Label layoutX="212.0" layoutY="14.0" prefHeight="55.0" prefWidth="176.0" text="Repeat">
+          <font>
+            <Font size="50.0" />
+          </font>
+        </Label>
+        <Button fx:id="handle" layoutX="225.0" layoutY="359.0" mnemonicParsing="false" onAction="#handle" prefWidth="150.0" text="Event" />
+        <CheckBox layoutX="33.0" layoutY="100.0" mnemonicParsing="false" text="Sunday" />
+        <CheckBox layoutX="33.0" layoutY="135.0" mnemonicParsing="false" text="Monday" />
+        <CheckBox layoutX="33.0" layoutY="170.0" mnemonicParsing="false" text="Tuesday" />
+        <CheckBox layoutX="33.0" layoutY="205.0" mnemonicParsing="false" text="Wednesday" />
+        <CheckBox layoutX="33.0" layoutY="240.0" mnemonicParsing="false" text="Thursday" />
+        <CheckBox layoutX="33.0" layoutY="275.0" mnemonicParsing="false" text="Friday" />
+        <CheckBox layoutX="33.0" layoutY="310.0" mnemonicParsing="false" text="Saturday" />
+        <CheckBox layoutX="300.0" layoutY="150.0" mnemonicParsing="false" text="Never" />
+        <Label layoutX="300.0" layoutY="100.0" prefWidth="73.0" text="End on:" />
+        <TextField layoutX="364.0" layoutY="202.0" prefWidth="200.0" />
+        <Label layoutX="300.0" layoutY="205.0" prefWidth="64.0" text="Date:" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>
